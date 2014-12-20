@@ -3,11 +3,11 @@ var censoredWords = ["vaffanculo", "stronzo", "dio", "madonna", "coglione", "mer
 var customCensoredWords = [];
 
 function censor(inStr) {
-    for (inStr in censoredWords) {
-        inStr = inStr.replace(censoredWords[inStr], "***");
+    for (var w in censoredWords) {
+        inStr = inStr.replace(censoredWords[w], "***");
     }
-    for (inStr in customCensoredWords) {
-        inStr = inStr.replace(customCensoredWords[inStr], "***");
+    for (var w in customCensoredWords) {
+        inStr = inStr.replace(customCensoredWords[w], "***");
     }
 
     return inStr;
