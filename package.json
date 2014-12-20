@@ -1,0 +1,19 @@
+{
+    "name": "censorize",
+    "version": "0.1.1",
+    "author": "Luca Lanzanò",
+    "description": "Censor words out of text",
+    "main": "censor-text",
+    "dependencies": {},
+    "engines": {
+        "node": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lucalanzano81/censorize"
+    },
+    "keywords": [
+        "censor",
+        "words"
+    ]
+}
